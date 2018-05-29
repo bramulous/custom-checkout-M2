@@ -1,0 +1,35 @@
+.payment-method-content .actions-toolbar {
+    display: none;
+}
+
+#place-order-trigger-wrapper {
+    margin: 20px;
+}
+
+#place-order-trigger {
+    width: 100%;
+    margin: 0;
+    height: 60px;
+}
+
+#place-order-trigger span {
+    font-size: 20px;
+}
+
+.checkout-agreements {
+    float: right;
+    padding: 20px;
+}
+
+.checkout-agreements button {
+    background: none;
+    color: #1979c3;
+    border: none;
+    padding: 0;
+    font: inherit;
+    cursor: pointer
+}
+
+.checkout-agreements button:hover {
+    text-decoration: underline;
+}

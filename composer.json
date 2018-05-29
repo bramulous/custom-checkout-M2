@@ -1,0 +1,22 @@
+{
+    "name": "brvm/module-checkout210",
+    "description": "Custom Checkout for M2 - BRVM",
+    "type": "magento2-module",
+    "license": "proprietary",
+    "authors": [
+        {
+            "email": "contact@bramvalstar.nl",
+            "name": "BRVM"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "BRVM\\CustomCheckout\\": ""
+        }
+    }
+}
